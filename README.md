@@ -19,8 +19,8 @@ The flow of our implementation is as follows:
 3. Split these tranformed RDDs into training, validation and test RDDs
 4. Train Model: Create three models with different number of latent factors using the trainingRDD.
 5. Model Evaluation: Choose the best model of the three by testing on the validationRDD.
-6. Make predictions on the testRDD using the best model.
-7. Recommend top 5 artist names for a user.
+6. Make predictions on the testRDD using the best model and calculate its accuracy.
+7. Recommend top 5 artists for a user.
   
 
 References
