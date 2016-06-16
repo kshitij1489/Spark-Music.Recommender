@@ -12,7 +12,7 @@ This dataset used here for demonstration is from the publicly available song dat
 trimmed version of the original dataset containing information about the 50 most active users. 
 The original dataset contains information about 141K users, and 1.6 million artists.
 
-The flow of this implementation is as follows:
+The flow of our implementation is as follows:
 
 1. Read all the three dataset files in RDDs
 2. Filter, manipulate and tranform the RDD's to extract information about users like: artist play counts, user - mean playcount etc.
@@ -20,7 +20,7 @@ The flow of this implementation is as follows:
 4. Train Model: Create three models with different number of latent factors using the trainingRDD.
 5. Model Evaluation: Choose the best model of the three by testing on the validationRDD.
 6. Make predictions on the testRDD using the best model.
-7. Recommend top 5 ArtistNames for any user.
+7. Recommend top 5 artist names for a user.
   
 
 References
